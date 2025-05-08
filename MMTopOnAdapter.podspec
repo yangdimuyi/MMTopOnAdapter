@@ -35,6 +35,8 @@ Pod::Spec.new do |spec|
   
   spec.subspec 'AdSDk' do |ss|
     ss.ios.vendored_frameworks = 'MMTopOnAdapter/WMAdapter.framework'
+    ss.dependency 'AnyThinkiOS', '6.4.56'
+    ss.dependency 'AdWangMaiSDK', '7.1.1.2'
   end
   
   # This description is used to generate tags and improve search results.
