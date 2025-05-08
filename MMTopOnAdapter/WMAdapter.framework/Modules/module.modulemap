@@ -1,0 +1,6 @@
+framework module WMAdapter {
+  umbrella header "WMAdapter.h"
+  export *
+
+  module * { export * }
+}
