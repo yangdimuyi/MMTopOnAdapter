@@ -34,7 +34,7 @@ Pod::Spec.new do |spec|
   spec.default_subspec = 'AdSDk'
   
   spec.subspec 'AdSDk' do |ss|
-    ss.ios.vendored_frameworks = 'MMTopOnAdapter/WMAdapter.framework'ßßß
+    ss.ios.vendored_frameworks = 'MMTopOnAdapter/WMAdapter.framework'
   end
   
   # This description is used to generate tags and improve search results.
