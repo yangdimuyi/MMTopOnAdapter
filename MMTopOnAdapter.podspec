@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MMTopOnAdapter"
-  spec.version      = "1.7.0"
+  spec.version      = "2.0"
   spec.summary      = "Adapter"
   spec.description  = <<-DESC
     AD Adapter.
@@ -35,8 +35,8 @@ Pod::Spec.new do |spec|
   
   spec.subspec 'AdSDk' do |ss|
     ss.ios.vendored_frameworks = 'MMTopOnAdapter/WMAdapter.framework'
-    ss.dependency 'AnyThinkiOS', '6.4.93'
-    ss.dependency 'AdWangMaiSDK', '7.7.4.28'
+    ss.dependency 'AnyThinkiOS', '6.5.34'
+    ss.dependency 'AdWangMaiSDK', '7.7.4.31'
   end
   
   # This description is used to generate tags and improve search results.

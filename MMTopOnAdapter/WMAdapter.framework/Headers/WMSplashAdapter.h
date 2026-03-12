@@ -2,16 +2,14 @@
 //  WMSplashAdapter.h
 //  WMAdapter
 //
-//  Created by xiang shi on 2024/6/20.
+//  Created by xiang shi on 2026/1/6.
 //
 
-#import <Foundation/Foundation.h>
-#import <AnyThinkSDK/AnyThinkSDK.h>
-#import <AnyThinkSplash/AnyThinkSplash.h>
+#import <WMAdapter/WMCustomBaseMediationAdapter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WMSplashAdapter : NSObject<ATAdAdapter>
+@interface WMSplashAdapter : WMCustomBaseMediationAdapter<ATBaseSplashAdapterProtocol>
 
 @end
 

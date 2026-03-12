@@ -2,16 +2,14 @@
 //  WMRewardedVideoAdapter.h
 //  WMAdapter
 //
-//  Created by xiang shi on 2024/6/24.
+//  Created by xiang shi on 2026/1/7.
 //
 
-#import <Foundation/Foundation.h>
-#import <AnyThinkSDK/AnyThinkSDK.h>
-#import <AnyThinkRewardedVideo/AnyThinkRewardedVideo.h>
+#import <WMAdapter/WMCustomBaseMediationAdapter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WMRewardedVideoAdapter : NSObject<ATAdAdapter>
+@interface WMRewardedVideoAdapter : WMCustomBaseMediationAdapter<ATBaseRewardedAdapterProtocol>
 
 @end
 

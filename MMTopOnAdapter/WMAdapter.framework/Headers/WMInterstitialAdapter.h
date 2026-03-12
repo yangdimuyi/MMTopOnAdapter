@@ -2,16 +2,14 @@
 //  WMInterstitialAdapter.h
 //  WMAdapter
 //
-//  Created by xiang shi on 2024/6/26.
+//  Created by xiang shi on 2026/1/7.
 //
 
-#import <Foundation/Foundation.h>
-#import <AnyThinkSDK/AnyThinkSDK.h>
-#import <AnyThinkInterstitial/AnyThinkInterstitial.h>
+#import <WMAdapter/WMCustomBaseMediationAdapter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WMInterstitialAdapter : NSObject<ATAdAdapter>
+@interface WMInterstitialAdapter : WMCustomBaseMediationAdapter<ATBaseInterstitialAdapterProtocol>
 
 @end
 

@@ -2,16 +2,14 @@
 //  WMNativeAdapter.h
 //  WMAdapter
 //
-//  Created by xiang shi on 2024/6/26.
+//  Created by xiang shi on 2026/1/7.
 //
 
-#import <Foundation/Foundation.h>
-#import <AnyThinkSDK/AnyThinkSDK.h>
-#import <AnyThinkNative/AnyThinkNative.h>
+#import <WMAdapter/WMCustomBaseMediationAdapter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WMNativeAdapter : NSObject<ATAdAdapter>
+@interface WMNativeAdapter : WMCustomBaseMediationAdapter<ATBaseNativeAdapterProtocol>
 
 @end
 
