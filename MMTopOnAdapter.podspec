@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MMTopOnAdapter"
-  spec.version      = "2.0.2"
+  spec.version      = "2.0.4"
   spec.summary      = "Adapter"
   spec.description  = <<-DESC
     AD Adapter.
